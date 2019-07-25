@@ -1,0 +1,323 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*main-navbar*/
+.nav{
+    height:65px;
+    background-color:rgb(155, 31, 31);
+    width:100%;
+}
+.left-div-with-icons{
+    float:left;
+    padding-top:17px;
+    margin-left:53px;
+}
+.left-div-with-icons a{
+    color:#fff;
+    font-size:26px;
+    padding:10px;
+  
+}
+.left-div-with-icons a:hover{
+    color:#a09f9f;
+   
+}
+.right-div-with-list{
+    float:right;
+padding-top:14px;
+margin-right:50px;
+}
+.right-div-with-list a{
+    font-family: 'Khand', sans-serif;
+    color:#fff;
+    font-size:26px;
+    
+    padding:26px;
+    text-transform: uppercase;
+text-decoration: none;
+}
+
+.right-div-with-list a:hover{
+    color:#a09f9f;
+
+}
+
+
+ 
+
+.nav2{
+    width:100%;
+    height:130px;
+}
+ .left-div-with-image{
+     float:left;
+     margin-left:63px;
+ }
+ .right-div-with-elements{
+float:right;
+padding-top:54px;
+margin-right:70px;
+    }
+
+    .right-div-with-elements a{
+    font-family: 'Raleway Black', sans-serif;
+    font-weight:900;
+    font-size:19px;
+    color:#111;
+    padding:6px;
+    text-transform: uppercase;
+text-decoration: none;
+    }
+    .right-div-with-elements a:hover{
+        color:rgb(155, 31, 31);
+    }
+    .right-div-with-elements a:nth-child(1){
+        color:rgb(155, 31, 31);
+    }
+
+
+.head-img{
+    width:100%;
+    
+    height:580px;
+    background-image: url('nb_ftm.png');
+    background-position:bottom;
+    background-size:100%;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#111;
+}
+
+.news{
+    width:100%;
+    height:1750px;
+    background-image:url('news-bg.jpg');
+    background-position:top;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.div1{
+    width:100%;
+    height:630px;
+
+}
+.box1{
+    width:45%;
+    height:;
+    float:left;
+  margin-left:90px;
+}
+.box2{
+    width:45%;
+    height:;
+    float:right;
+    margin-right:40px;
+}
+.date{
+    width:560px;
+    margin-top:50px;
+    font-family: 'Khand', sans-serif;
+    color:rgb(155, 31, 31);
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:7px;
+}
+.news-head{
+    margin-top:0px;
+    width:560px;
+}
+.news-head a{
+    font-family: 'Raleway Black', sans-serif;
+    font-size:26px;
+    color:#fff;
+    font-weight:900;
+    text-decoration: none;
+    text-transform:uppercase;
+   
+}
+.news-head a:hover{
+    color:rgb(155, 31, 31);
+}
+.news-tail{
+    font-family: 'Khand', sans-serif;
+    font-size:17px;
+    margin-top:0px;
+    width:560px;
+    color:#fff;
+    
+}
+.news button{
+    margin-top:20px;
+    width:210px;
+    height:50px;
+    background-color:rgb(155, 31, 31);
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    font-weight:600;
+    color:#fff;
+    border:1px solid rgb(155, 31, 31);
+}
+.news button:hover{
+    background-color:rgba(155,31,31,.5);
+    border:1px solid rgb(155, 31, 31);
+}
+.heading2{
+    width:1100px;
+    height:90px;
+    margin-bottom:40px;
+    padding-left:40px;
+    padding-top:20px;
+    font-family: 'Raleway Black', sans-serif;
+font-size:60px;
+color:#111;
+text-transform: uppercase;
+font-weight:900;
+margin-left:110px;
+border-left:40px solid rgb(155, 31, 31);
+   
+   
+}
+    .heading{
+        width:1100px;
+        height:90px;
+        padding-left:40px;
+        padding-top:20px;
+        margin-bottom:40px;
+        font-family: 'Raleway Black', sans-serif;
+    font-size:60px;
+    text-transform: uppercase;
+    font-weight:900;
+    color:#fff;
+    margin-left:110px;
+    border-left:40px solid rgb(155, 31, 31);
+       
+       
+    }
+   .frame{
+       text-align: center;
+       margin-top:40px;
+    }
+    .videos{
+        width:100%;
+        height:1100px;
+        background-image:url('videos-bg-bottom.jpg');
+        background-attachment: fixed;
+        background-position:50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index:-1;
+    }
+    .text2{
+        width:100%;
+        font-family: 'Khand', sans-serif;
+        text-transform: uppercase;
+        font-size:27px;
+        font-weight:600;
+        margin-top:80px;
+        color:#fff;
+        text-align: center;
+    }
+    .text{
+        width:100%;
+        font-family: 'Khand', sans-serif;
+        text-transform: uppercase;
+        font-size:27px;
+        font-weight:600;
+        margin-top:62px;
+        color:#fff;
+        text-align: center;
+    }
+    .text:hover{
+        color:rgb(155, 31, 31);
+        cursor: pointer;
+    }
+    .text2:hover{
+        color:rgb(155, 31, 31);
+        cursor: pointer;
+    }
+    .text span{
+        color:rgb(155, 31, 31);
+        font-size:30px;
+    }
+    .text2 span{
+        color:rgb(155, 31, 31);
+        font-size:30px;
+    }
+
+    .song-cover{
+width:100%;
+height:920px;
+background-image: url('music-bg.jpg');
+
+background-position:center;
+
+
+    }
+    .left-song-cover{
+        float:left;
+        margin-right:30px;
+        margin-left:126px;
+    }
+    .right{
+        float:right;
+    }
+    .song{
+        margin-top:55px;
+        width:100%;
+        height:530px;
+    }
+.box-empty{
+    width:100%;
+    height:50px;
+    background:transparent;
+    margin:0;
+}
+
+    .footer{
+        width:100%;
+        height:180px;
+    }
+    .footer button{
+        border:1px solid #111;
+        height:60px;
+        width:270px;
+    }
+    .f1{
+        margin-top:17px;
+        text-align: center;
+    }
+    .f1 a{
+          color:rgb(88, 87, 87);
+          text-transform:uppercase;
+          font-size:24px;
+          font-family: 'Khand', sans-serif;
+          padding:13px;
+          text-decoration:none;
+    }
+    .f1 a:hover{
+        color:#111;
+    }
+    .f2{
+        margin-top:10px;
+        text-align: center;
+    }
+    .f2 button{
+        font-size:24px;
+        background: transparent;
+        font-family: 'Khand', sans-serif;
+        text-transform:uppercase;
+    }
+    .f3{
+        text-align: center;
+        margin-top:10px;
+        font-size: 18px;
+        color:rgb(88, 87, 87);
+          font-family: 'b';
+          text-transform: uppercase;
+    }
+    @font-face{
+        font-family:b;
+    src:url('Oswald[wght].ttf');
+    }
